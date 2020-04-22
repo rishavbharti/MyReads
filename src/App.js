@@ -78,6 +78,7 @@ class BooksApp extends React.Component {
             </Link>            
           </Route>
           <Route exact path='/search' render={()=><SearchLibrary books={this.state.books} onShelfUpdate={this.toUpdateShelf}/>}/>
+          <footer style={{textAlign: 'center', marginBottom: '5px'}}>Designed by <a href="https://www.linkedin.com/in/rishavbharti/">Rishav Bharti</a></footer>
       </div>
     )
   }
